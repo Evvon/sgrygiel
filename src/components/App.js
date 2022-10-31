@@ -5,6 +5,7 @@ import TopMedia from "./TopMedia";
 import Header from "./Header";
 import Menu from "./Menu";
 import Section from "./Section";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Menu />
         <Section />
+        <Footer />
       </div>
     </BrowserRouter>
   );
