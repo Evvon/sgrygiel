@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+    width: 1980px;
+    margin: 0 auto;
+}
+
+.top-media {
+  height: 100px;
+  background-color: aqua;
+}
+
+.header {
+  height: 400px;
+  background-color: antiquewhite;
+}
+
+.menu {
+  height: 150px;
+  background-color: aqua;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menu ul li {
+line-height: 150px;
+}
+
+.menu__link { 
+background-color: white;
+  text-decoration: none;
+  color:black;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: arial;
+}
+
