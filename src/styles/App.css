@@ -20,6 +20,10 @@ justify-content: space-evenly;
 
 }
 
+.top-media a {
+  color:#333;
+}
+
 .header {
   height: 400px;
 }
