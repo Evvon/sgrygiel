@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sgrygiel/static/css/main.15991dac.css",
-    "main.js": "/sgrygiel/static/js/main.aaedaaa2.js",
+    "main.js": "/sgrygiel/static/js/main.4fcc0d05.js",
     "static/media/sg-logo.png": "/sgrygiel/static/media/sg-logo.e3eb8b65cc208f137617.png",
     "index.html": "/sgrygiel/index.html",
     "main.15991dac.css.map": "/sgrygiel/static/css/main.15991dac.css.map",
-    "main.aaedaaa2.js.map": "/sgrygiel/static/js/main.aaedaaa2.js.map"
+    "main.4fcc0d05.js.map": "/sgrygiel/static/js/main.4fcc0d05.js.map"
   },
   "entrypoints": [
     "static/css/main.15991dac.css",
-    "static/js/main.aaedaaa2.js"
+    "static/js/main.4fcc0d05.js"
   ]
 }
