@@ -1,14 +1,14 @@
 {
-  "main.css": "/sgrygiel/run/static/css/main.5acd5ff7.chunk.css",
-  "main.js": "/sgrygiel/run/static/js/main.56996e8e.chunk.js",
-  "main.js.map": "/sgrygiel/run/static/js/main.56996e8e.chunk.js.map",
-  "static/js/1.b00c8b66.chunk.js": "/sgrygiel/run/static/js/1.b00c8b66.chunk.js",
-  "static/js/1.b00c8b66.chunk.js.map": "/sgrygiel/run/static/js/1.b00c8b66.chunk.js.map",
-  "runtime~main.js": "/sgrygiel/run/static/js/runtime~main.7e0916b3.js",
-  "runtime~main.js.map": "/sgrygiel/run/static/js/runtime~main.7e0916b3.js.map",
-  "static/media/sg-logo.png": "/sgrygiel/run/static/media/sg-logo.c3a77abd.png",
-  "static/css/main.5acd5ff7.chunk.css.map": "/sgrygiel/run/static/css/main.5acd5ff7.chunk.css.map",
-  "index.html": "/sgrygiel/run/index.html",
-  "precache-manifest.c8100c57feda5060c900983a71c98e9d.js": "/sgrygiel/run/precache-manifest.c8100c57feda5060c900983a71c98e9d.js",
-  "service-worker.js": "/sgrygiel/run/service-worker.js"
+  "files": {
+    "main.css": "/sgrygiel/static/css/main.f957dff9.css",
+    "main.js": "/sgrygiel/static/js/main.1c8f8f27.js",
+    "static/media/sg-logo.png": "/sgrygiel/static/media/sg-logo.e3eb8b65cc208f137617.png",
+    "index.html": "/sgrygiel/index.html",
+    "main.f957dff9.css.map": "/sgrygiel/static/css/main.f957dff9.css.map",
+    "main.1c8f8f27.js.map": "/sgrygiel/static/js/main.1c8f8f27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f957dff9.css",
+    "static/js/main.1c8f8f27.js"
+  ]
 }
