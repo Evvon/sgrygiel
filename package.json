@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "homepage": "https://evvon.github.io/sgrygiel/",
+=======
   "homepage": "htpp://Evvon.github.io/sgrygiel",
+>>>>>>> 17ce628b0511c35c3f9919276be983b39bd5b427
   "name": "sgrygiel",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +18,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+    "predeploy": "npm run build",
+=======
     "predeplot": "npm run build",
+>>>>>>> 17ce628b0511c35c3f9919276be983b39bd5b427
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
