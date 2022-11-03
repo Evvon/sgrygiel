@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { menuData } from "../data/menuData";
 
 const handleClick = () => {
@@ -14,9 +14,9 @@ const Menu = () => {
       <ul className="menu__list">
         {menuData.map(({ link, name, id }) => (
           <li className="menu__element" key={id}>
-            <Link onClick={handleClick} to={link} className="menu__link">
+            <NavLink onClick={handleClick} to={link} className="menu__link">
               {name}
-            </Link>
+            </NavLink>
           </li>
         ))}
         <i onClick={handleClick} className="menu__close fa-solid fa-xmark"></i>

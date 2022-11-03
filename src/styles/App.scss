@@ -18,7 +18,7 @@
   box-shadow: 0 3px 3px grey;
   justify-content: space-evenly;
   &__link{
-    color:#222;
+    color:#333;
   }
   @media (max-width:799px){
     padding-left: 70%;
@@ -88,7 +88,7 @@ width: 17%;
     right:25%;
     font-size: 40px;
     cursor: pointer;
-    color: #222;
+    color: #444;
   }
 
 }
@@ -128,4 +128,9 @@ width: 17%;
   padding: 5px 0px 5px 30px;
   background-color: #333;
   color: white;
+}
+
+.active {
+  background-color: #444;
+  color:white;
 }
