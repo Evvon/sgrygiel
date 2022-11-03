@@ -5,9 +5,9 @@ import { menuData } from "../data/menuData";
 const Menu = () => {
   return (
     <nav className="menu">
-      <ul>
+      <ul className="menu__list">
         {menuData.map(({ link, name, id }) => (
-          <li key={id}>
+          <li className="menu__element" key={id}>
             <Link to={link} className="menu__link">
               {name}
             </Link>
