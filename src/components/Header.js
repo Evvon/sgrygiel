@@ -2,9 +2,8 @@ import React from "react";
 import logo from "../img/sg-logo.png";
 
 const handleClick = () => {
-  console.log("dziala");
   const menu = document.querySelector(".menu__list");
-  menu.style.top = "25px";
+  menu.style.top = "0px";
   menu.style.left = "20%";
 };
 
