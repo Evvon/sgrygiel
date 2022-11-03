@@ -4,6 +4,7 @@ const TopMedia = () => {
   return (
     <aside className="top-media">
       <a
+        className="top-media__link"
         href="https://www.facebook.com/studiomakijazu.sgrygiel"
         target="_blank"
         rel="noreferrer"
@@ -12,6 +13,7 @@ const TopMedia = () => {
       </a>
 
       <a
+        className="top-media__link"
         href="https://www.instagram.com/sylwiagrygiel_p.mu/"
         target="_blank"
         rel="noreferrer"
