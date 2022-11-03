@@ -12,7 +12,7 @@ const Section = () => {
     <>
       <section className="sections">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/makijaze" element={<Makijaze />} />
           <Route path="/stylizacje-brwi" element={<StylizacjeBrwi />} />
           <Route path="/laser" element={<Laser />} />
