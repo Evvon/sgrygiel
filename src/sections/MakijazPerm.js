@@ -1,8 +1,8 @@
 import React from "react";
 import SectionBuild from "./SectionBuild";
 
-const StylizacjeBrwi = () => {
+const MakijazPerm = () => {
   return <SectionBuild />;
 };
 
-export default StylizacjeBrwi;
+export default MakijazPerm;
