@@ -1,10 +1,11 @@
 import React from "react";
 import SectionBuild from "./SectionBuild";
+import { laserData } from "../data/laserData";
 
 const Laser = () => {
   return (
     <>
-      <SectionBuild />
+      <SectionBuild title={laserData.title} text={laserData.text} />
     </>
   );
 };

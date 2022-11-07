@@ -142,17 +142,28 @@ width: 200px;
   &__img{
     align-self: center;
     width: 70%;
+    opacity: 0.3;
    
   }
 }
 
-.coneter{
+.section-information{
   display: flex;
-  &__text{
-    width: 500px;
-    text-align: center;
-    align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  text-align: center;
+  @media (max-width:799px){
+    width: 200px;
   }
+}
+//testing flex grow
+.test {
+  flex-grow: 1;
+}
+.testtwo{
+  flex-grow: 2;
 }
 
 .footer {

@@ -1,23 +1,9 @@
 import React from "react";
-import logo from "../img/sg-logo.png";
+import SectionBuild from "./SectionBuild";
+import { makeupData } from "../data/makeupData";
 
 const Makijaze = () => (
-  <>
-    <div className="contener">
-      <img className="contener__img" src={logo} alt="" />
-    </div>
-    <div className="contener">
-      <p className="coneter__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
-        sint provident, cumque voluptatibus iste vero quae beatae. Quasi, autem.
-        Quia illum dolorem excepturi! Corrupti, earum. Esse repellendus quaerat
-        nihil.
-      </p>
-    </div>
-    <div className="contener">
-      <img className="contener__img" src={logo} alt="" />
-    </div>
-  </>
+  <SectionBuild title={makeupData.title} text={makeupData.text} />
 );
 
 export default Makijaze;

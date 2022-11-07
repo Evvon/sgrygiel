@@ -1,19 +1,30 @@
 import React from "react";
 import logo from "../img/sg-logo.png";
 
-const sectionBuild = () => {
+const SectionBuild = ({
+  title,
+  text,
+  name,
+  adress,
+  phoneNumber,
+  fb,
+  instagram,
+}) => {
   return (
     <>
       <div className="contener">
         <img className="contener__img" src={logo} alt="" />
       </div>
-      <div className="contener">
-        <p className="coneter__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex
-          sint provident, cumque voluptatibus iste vero quae beatae. Quasi,
-          autem. Quia illum dolorem excepturi! Corrupti, earum. Esse repellendus
-          quaerat nihil.
-        </p>
+      <div className="section-information">
+        <h1 className="test">{title}</h1>
+        <div className="testtwo">
+          <h3>{name}</h3>
+          <p>{adress}</p>
+          <p>{phoneNumber}</p>
+          <p>{fb}</p>
+          <p>{instagram}</p>
+          <p>{text}</p>
+        </div>
       </div>
       <div className="contener">
         <img className="contener__img" src={logo} alt="" />
@@ -22,4 +33,4 @@ const sectionBuild = () => {
   );
 };
 
-export default sectionBuild;
+export default SectionBuild;
