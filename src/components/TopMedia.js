@@ -8,7 +8,7 @@ const TopMedia = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="top-media__link fa-brands fa-facebook"></i>
+        <i className="top-media__link fa-brands fa-facebook"></i>
       </a>
 
       <a
@@ -16,7 +16,7 @@ const TopMedia = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="top-media__link fa-brands fa-instagram"></i>
+        <i className="top-media__link fa-brands fa-instagram"></i>
       </a>
     </aside>
   );
