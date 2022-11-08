@@ -8,6 +8,15 @@ import Section from "./Section";
 import Footer from "./Footer";
 
 function App() {
+  const handleResize = () => {
+    if (window.innerWidth > 799) {
+      const menu = document.querySelector(".menu__list");
+      menu.style.opacity = "1";
+    }
+  };
+
+  window.addEventListener("resize", handleResize);
+
   return (
     <BrowserRouter>
       <div className="wrapper">
