@@ -5,6 +5,7 @@ const handleClick = () => {
   const menu = document.querySelector(".menu__list");
   menu.style.top = "0";
   menu.style.left = "20%";
+  menu.style.opacity = "1";
 };
 
 const Header = () => {
