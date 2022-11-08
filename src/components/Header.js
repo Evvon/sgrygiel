@@ -3,7 +3,7 @@ import logo from "../img/sg-logo.png";
 
 const handleClick = () => {
   const menu = document.querySelector(".menu__list");
-  menu.style.top = "0px";
+  menu.style.top = "0";
   menu.style.left = "20%";
 };
 
