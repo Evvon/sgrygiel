@@ -10,23 +10,37 @@
 }
 
 .top-media {
+  position: fixed;
+  z-index: 1;
   display: flex;
-  font-size: 35px;
-  padding-left: 90%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  width: 100%;
+  max-width: 1920px;
+  padding: 5px 0;
+  background-color: white;
   box-shadow: 0 3px 3px #999;
-  justify-content: space-evenly;
   &__link{
+    font-size: 35px;
+    padding: 5px  30px 5px 0;
     color:#444;
   }
   @media (max-width:799px){
-    padding-left: 70%;
     font-size: 30px;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    padding: 3px 0;
+  }
+  &__slogan{
+    display: block;
+    align-self: center;
+    padding-left: 25%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    flex-grow: 1;
+    @media (max-width:799px){
+      padding-left: 5%;
+      font-size: 15px;
+    }
   }
 }
+
 
 .menu{
   box-shadow: 0 3px 2px #999;
