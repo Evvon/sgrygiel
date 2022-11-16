@@ -1,4 +1,4 @@
-export const makeupData = {
-  title: "Makijaż",
-  text: "Makijaż Makijaż Makijaż Makijaż Makijaż Makijaż Makijaż",
-};
+export const makeupData = [
+  { link: "/permbrwi", name: "Makijaż permanentny brwi", id: 1 },
+  { link: "/permusta", name: "Makijaż permanentny ust", id: 2 },
+];
