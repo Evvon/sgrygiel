@@ -1,4 +1,5 @@
 export const permMakeupData = {
-  title: "Makijaż Permanentny",
-  text: "Makijaż PermanentnyMakijaż PermanentnyMakijaż PermanentnyMakijaż Permanentny",
+  title: "Makijaże Permanentne",
+  optionOne: "Makijaż Permanentny Ust",
+  optionTwo: "Makijaż Permanenty Brwi",
 };
