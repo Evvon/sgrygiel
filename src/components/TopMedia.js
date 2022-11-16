@@ -3,6 +3,10 @@ import React from "react";
 const TopMedia = () => {
   return (
     <aside className="top-media">
+      <p className="top-media__slogan">
+        Mam nadzieję, że czujesz się dziś pięknie!
+      </p>
+
       <a
         href="https://www.facebook.com/studiomakijazu.sgrygiel"
         target="_blank"
