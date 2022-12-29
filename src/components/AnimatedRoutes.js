@@ -17,7 +17,7 @@ const AnimatedRoutes = () => {
         <Route path="/makijaze-permanentne" element={<MakijazPerm />} />
         <Route path="/makijaze" element={<Makijaze />} />
         <Route path="/stylizacje-brwi" element={<StylizacjeBrwi />} />
-        <Route path="/laser" element={<Laser />} />
+        <Route path="/usuwanieperm" element={<Laser />} />
         <Route path="/kontakt" element={<Contact />} />
       </Routes>
     </AnimatePresence>
