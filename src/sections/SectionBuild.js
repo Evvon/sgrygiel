@@ -1,16 +1,9 @@
 import React from "react";
 import logo from "../img/sg-logo.png";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
-const SectionBuild = ({
-  title,
-  text,
-  name,
-  adress,
-  phoneNumber,
-  fb,
-  instagram,
-}) => {
+const SectionBuild = ({ sectionData }) => {
   return (
     <motion.div
       className="motion-div"
@@ -18,23 +11,25 @@ const SectionBuild = ({
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="contener">
-        <img className="contener__img" src={logo} alt="" />
-      </div>
-      <div className="section-information">
-        <h1 className="test">{title}</h1>
-        <div className="testtwo">
-          <h3>{name}</h3>
-          <p>{adress}</p>
-          <p>{phoneNumber}</p>
-          <p>{fb}</p>
-          <p>{instagram}</p>
-          <p>{text}</p>
+      <>
+        <div className="contener">
+          <img className="contener__img" src={logo} alt="" />
         </div>
-      </div>
-      <div className="contener">
-        <img className="contener__img" src={logo} alt="" />
-      </div>
+        <nav className="menu menu--section">
+          <ul className="menu__list menu__list--section">
+            {sectionData.map(({ link, name, id }) => (
+              <li className="menu__element" key={id}>
+                <NavLink to={link} className="menu__link menu__link--section">
+                  {name}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className="contener">
+          <img className="contener__img" src={logo} alt="" />
+        </div>
+      </>
     </motion.div>
   );
 };
