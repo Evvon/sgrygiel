@@ -1,4 +1,5 @@
 export const makeupData = [
-  { link: "/permbrwi", name: "Makijaż permanentny brwi", id: 1 },
-  { link: "/permusta", name: "Makijaż permanentny ust", id: 2 },
+  { link: "/slubny", name: "Makijaż Ślubny", id: 1 },
+  { link: "/probny", name: "Makijaż Ślubny - próbny", id: 2 },
+  { link: "/okolicznosciowy", name: "Makijaż okolicznościowy", id: 3 },
 ];
