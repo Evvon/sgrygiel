@@ -1,11 +1,13 @@
 import React from "react";
 import SectionBuild from "./SectionBuild";
-import { laserData } from "../data/laserData";
+import { laserData } from "../data/laserData.js";
+import logo1 from "../img/usuwanieimg1.jpg";
+import logo2 from "../img/usuwanieimg1.jpg";
 
 const Laser = () => {
   return (
     <>
-      <SectionBuild title={laserData.title} text={laserData.text} />
+      <SectionBuild sectionData={laserData} logo1={logo1} logo2={logo2} />
     </>
   );
 };
