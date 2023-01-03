@@ -153,7 +153,9 @@
 
 .menu--section{
   display: flex;
+  height: 100%;
   flex-grow: 1;
+  box-shadow: none;
 }
 
 .header{
@@ -189,6 +191,7 @@
 .sections {
   display: flex;
   width: 100%;
+  min-height: 400px;
   flex-grow: 1;
   flex-direction: column;
   overflow: hidden;
