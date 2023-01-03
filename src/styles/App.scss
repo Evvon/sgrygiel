@@ -22,7 +22,10 @@
   &__link{
     font-size: 35px;
     padding: 5px  30px 5px 0;
-    color:#444;
+    color:royalblue;
+  }
+  &__link.fa-instagram{
+    color:rgb(238, 7, 123);
   }
   @media (max-width:799px){
     font-size: 30px;
@@ -66,35 +69,25 @@
     transition: 0.3s;
   }
 }
-
-}
-
-.menu__list--section{
+&__list--section{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
   align-self: center;
+  @media(max-width: 799px){
+  }
 }
-.menu--section{
+&__element {
   display: flex;
-  box-shadow: none;
-  // width: 100%;
-  flex-grow: 1;
-  // background-color: #999;
-}
-
-.menu__element {
-display: flex;
-width: 200px;
-align-items: center;
-
-@media (max-width:799px) {
-  width: 80%;
-}
-}
-
-.menu__link {
+  width: 200px;
+  align-items: center;
+  
+  @media (max-width:799px) {
+    width: 80%;
+  }
+  }
+&__link {
   flex-basis: 100%;
   display: flex;
   height: 70px;
@@ -121,30 +114,49 @@ align-items: center;
  color: white;
   }
 }
-
-.menu__link--section{
-width: 100%;
-margin-bottom: 20px;
-
-}
-
-.menu__close {
-  display: none;
-  @media (max-width:799px) {
-    display: block;
-    position: absolute;
-    top:7%;
-    right:25%;
-    font-size: 40px;
-    cursor: pointer;
-    color: #444;
-    padding: 4px 7px;
-    border-radius: 15%;
-    background-color: rgba($color: #999, $alpha: .4);
+&__link--section{
+  background-size:100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  &:hover{
+    background-size: 105%;
+    // transform: scale(1.1); other option to choose from
   }
+  
+  }
+  &__close {
+    display: none;
+    @media (max-width:799px) {
+      display: block;
+      position: absolute;
+      top:7%;
+      right:25%;
+      font-size: 40px;
+      cursor: pointer;
+      color: #444;
+      padding: 4px 7px;
+      border-radius: 15%;
+      background-color: rgba($color: #999, $alpha: .4);
+    }
+  
+  }
+  &__element-section{
+    margin-top: 30px;
+    width:  27%;
+    height: 180px;
 
+  }
 }
 
+.menu--section{
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+  box-shadow: none;
+}
 
 .header{
   height: 400px;
@@ -179,7 +191,9 @@ margin-bottom: 20px;
 .sections {
   display: flex;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
+  flex-grow: 1;
+  flex-direction: column;
   overflow: hidden;
   justify-content: space-between;
   margin-bottom: 20px;

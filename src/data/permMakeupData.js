@@ -1,7 +1,20 @@
+import img1 from "../img/permimg2.jpg";
+import img2 from "../img/permimg1.jpg";
+
 export const permMakeupData = [
-  { link: "/permbrwi", name: "Makijaż permanentny brwi", id: 1 },
-  { link: "/permusta", name: "Makijaż permanentny ust", id: 2 },
-  { link: "/permoko", name: "Makijaż permanentny oczu", id: 3 },
-  { link: "/cover", name: "Cover", id: 4 },
-  { link: "/odswierzenie", name: "Odświeżęnie makijażu permanentnego", id: 5 },
+  {
+    link: "/permbrwi",
+    name: "Makijaż permanentny brwi",
+    img: img1,
+    id: 1,
+  },
+  { link: "/permusta", name: "Makijaż permanentny ust", img: img2, id: 2 },
+  { link: "/permoko", name: "Makijaż permanentny oczu", img: "", id: 3 },
+  { link: "/cover", name: "Cover", img: "", id: 4 },
+  {
+    link: "/odswierzenie",
+    name: "Odświeżęnie makijażu permanentnego",
+    img: "",
+    id: 5,
+  },
 ];
