@@ -22,7 +22,10 @@
   &__link{
     font-size: 35px;
     padding: 5px  30px 5px 0;
-    color:#444;
+    color:royalblue;
+  }
+  &__link.fa-instagram{
+    color:rgb(238, 7, 123);
   }
   @media (max-width:799px){
     font-size: 30px;
