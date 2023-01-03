@@ -78,6 +78,8 @@
   width: 100%;
   justify-content: space-evenly;
   align-self: center;
+  @media(max-width: 799px){
+  }
 }
 .menu--section{
   display: flex;
