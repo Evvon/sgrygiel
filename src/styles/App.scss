@@ -128,16 +128,41 @@
   }
 }
 &__link--section{
+  font-size: 20px;
+  font-weight: 900;
   background-size:100%;
   background-position: center;
   width: 100%;
   height: 100%;
   margin-bottom: 20px;
+  color: white;
   transition: 0.5s;
+  opacity: 1;
+  &__btn{
+    z-index: 3;
+  opacity: 1;
+  }
+  &::before{
+    opacity: 0.1;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
   &:hover{
     background-size: 105%;
+    color: white;
     // transform: scale(1.1); other option to choose from
   }
+  &:hover::before{
+    opacity: 0.3;
+    color: white;
+    // transform: scale(1.1); other option to choose from
+  }
+
   @media (max-width:799px){
     margin: 0;
   }
@@ -160,6 +185,8 @@
   
   }
   &__element-section{
+    position: relative;
+    background-color: black;
     margin-top: 30px;
     width:  27%;
     height: 180px;
@@ -169,6 +196,7 @@
     @media(max-width:391px){
       width: 80%;
     }
+    
 
   }
 }
@@ -222,18 +250,10 @@
   margin-bottom: 20px;
 }
 
-.contener{
-  z-index: -3;
+.contener img {
+  margin-top: 30px;
   display: flex;
-  overflow: hidden;
-}
-
-.section-contener{
-  display: flex;
-  min-width: 50%;
-  flex-grow: 1;
-  justify-content: center;
-
+  width: 100%;
 }
 
 .section-information{
@@ -241,7 +261,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 450px;
+  min-width: 40%;
   text-align: center;
   @media (max-width:799px){
     width: 200px;
@@ -264,4 +284,8 @@ div.motion-div{
 .active {
   background-color: #444;
   color:white;
+}
+
+.section-btn-text{
+  text-shadow:1px 1px #333;
 }

@@ -20,7 +20,7 @@ const SectionBuild = ({ sectionData, logo1, logo2 }) => {
                   to={link}
                   className="menu__link menu__link--section"
                 >
-                  {name}
+                  <p className="menu__link--section__btn">{name}</p>
                 </NavLink>
               </li>
             ))}
