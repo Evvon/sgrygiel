@@ -6,6 +6,7 @@ import StylizacjeBrwi from "../sections/StylizacjeBrwi";
 import Laser from "../sections/Laser";
 import Contact from "../sections/Contact";
 import MakijazPerm from "../sections/MakijazPerm";
+import PermBrows from "../service-info/perm-info/PermBrows";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -19,6 +20,7 @@ const AnimatedRoutes = () => {
         <Route path="/stylizacje-brwi" element={<StylizacjeBrwi />} />
         <Route path="/usuwanieperm" element={<Laser />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/makijaze-permanentne/permbrwi" element={<PermBrows />} />
       </Routes>
     </AnimatePresence>
   );

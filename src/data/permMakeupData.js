@@ -3,7 +3,7 @@ import img2 from "../img/permimg1.jpg";
 
 export const permMakeupData = [
   {
-    link: "/permbrwi",
+    link: "/makijaze-permanentne/permbrwi",
     name: "Makijaż permanentny brwi",
     img: img1,
     id: 1,
