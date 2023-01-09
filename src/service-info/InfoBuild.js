@@ -14,7 +14,7 @@ const InfoBuild = ({ infoData }) => {
           <h1>{infoData.name}</h1>
           <p>{infoData.info}</p>
           <p>Cena: {infoData.cost}</p>
-          <button>Zarazerwój termin</button>
+          <button>Zarazerwuj termin</button>
         </div>
       </>
     </motion.div>
