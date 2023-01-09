@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
-const SectionBuild = ({ sectionData, logo1, logo2 }) => {
+const SectionBuild = ({ sectionData }) => {
   return (
     <motion.div
       className="motion-div"

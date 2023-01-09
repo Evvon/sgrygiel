@@ -1,5 +1,5 @@
 export const permBrowsData = {
-  name: "",
-  info: "39-231 Brzostek, ul. Rynek 13",
-  cost: "503787598",
+  name: "Makijaż permanentny brwi",
+  info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam officiis, nisi impedit aliquid illum pariatur id. Ratione accusamus sunt, quo sint, alias delectus debitis voluptate ex odit dolorem repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam officiis, nisi impedit aliquid illum pariatur id. Ratione accusamus sunt, quo sint, alias delectus debitis voluptate ex odit dolorem repudiandae!",
+  cost: "800 zł",
 };

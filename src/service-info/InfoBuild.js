@@ -10,7 +10,12 @@ const InfoBuild = ({ infoData }) => {
       exit={{ opacity: 0 }}
     >
       <>
-        <div>test</div>
+        <div className="information">
+          <h1>{infoData.name}</h1>
+          <p>{infoData.info}</p>
+          <p>Cena: {infoData.cost}</p>
+          <button>Zarazerwój termin</button>
+        </div>
       </>
     </motion.div>
   );
